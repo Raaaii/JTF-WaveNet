@@ -1,0 +1,33 @@
+checkpoints/
+checkpoints_*/
+data_proc/
+outputs/
+src/jft_wavenet/data
+src/jft_wavenet/model/losses
+
+
+
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environments
+.venv/
+venv/
+
+# ML / checkpoints
+checkpoints/
+*.h5
+*.ckpt
+
+# Data (if large or private)
+data/
+*.npy
+
+# OS
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
+
