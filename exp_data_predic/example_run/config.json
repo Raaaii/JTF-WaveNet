@@ -1,0 +1,33 @@
+{
+  "points": 4096,
+  "stage": "stage2",
+  "ppm_ref_fid": "data_proc/organized_fids_300-329/vd300/fid_phased.fid",
+  "checkpoint_dir": "../../checkpoints",
+
+  "data_dir": "data_proc/organized_fids_300-329",
+  "hf_file": "hf.fid",
+  "fid_name": "fid_phased.fid",
+  "vd_glob": "vd*",
+
+  "out_npy_dir": "outputs/npy",
+  "out_plot_dir": "outputs/plots",
+
+  "vd_delays_sec": [0.003, 4.003, 1.188, 3.047, 1.7, 0.353, 0.744, 2.306],
+
+  "ft": {
+    "acq_time_sec": 2.43712,
+    "decay": 1.0
+  },
+
+"model": {
+  "filter_count": 48,
+  "blocks": 3,
+  "convolution_kernel": [4, 2],
+  "separate_activation": true,
+  "use_dropout": false,
+  "use_custom_padding": true,
+  "scale_factor_ft": 1.0,
+  "initial_factor": 0.0
+}
+}
+
