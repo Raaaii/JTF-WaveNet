@@ -31,3 +31,5 @@ data/
 .idea/
 .vscode/
 .env.example
+
+JFT_WaveNet.egg-info
