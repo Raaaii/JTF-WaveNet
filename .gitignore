@@ -21,7 +21,6 @@ checkpoints/
 *.ckpt
 
 # Data (if large or private)
-data/
 *.npy
 
 # OS
