@@ -8,7 +8,7 @@ from jtf_wavenet.vis.style import set_science_style
 
 def main():
     p = argparse.ArgumentParser("Plot CustomLearningSchedule")
-    p.add_argument("--steps", type=int, default=600_000)
+    p.add_argument("--steps", type=int, default=600_00000)
     p.add_argument("--every", type=int, default=1000, help="sample every N steps")
     p.add_argument("--d-model", type=float, default=20 * 20 * 13)
     p.add_argument("--warmup-steps", type=int, default=200_000)
