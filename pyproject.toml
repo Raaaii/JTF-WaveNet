@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "JFT-WaveNet"
 version = "0.1.0"
-description = "WaveNet-style ML tools for NMR vibration artifact removal + uncertainty estimation."
+description = "Joint time-frequency (JTF) WaveNet architecture"
 readme = "README.md"
 requires-python = ">=3.10"
 license = { text = "MIT" }
