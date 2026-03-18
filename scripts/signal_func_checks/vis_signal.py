@@ -1,7 +1,7 @@
 import tensorflow as tf
 import numpy as np
 
-from jft_wavenet.vis.signal_checks import quick_signal_plot
+from jtf_wavenet.vis.signal_checks import quick_signal_plot
 
 
 def main():
