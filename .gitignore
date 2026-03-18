@@ -34,3 +34,4 @@ checkpoints/
 .env.example
 
 JFT_WaveNet.egg-info
+scripts/signal_func_checks/figure.py
